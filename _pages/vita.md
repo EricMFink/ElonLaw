@@ -1,7 +1,9 @@
 ---
 layout: vita
-permalink: /vita/
+updated: '20 August 2021'
+
 title: Vita
+permalink: /vita/
 pdf: "_pages/vita.pdf"
 
 
