@@ -7,10 +7,19 @@ title: Vita
 permalink: /vita/
 pdf: "assets/pdf/vita.pdf"
 
+author: Eric M. Fink
+affiliation: Elon University School of Law
+email: efink@elon.edu
+phone: 336-279-9334
+address1: 201 North Greene Street
+address2: Greensboro, North Carolina 27401
+web: emfink.net/ElonLaw
+
 output: 
   pdf_document:
     latex_engine: xelatex
     template: vita.tex
+    path: /assets/pdf/syllabus.pdf
   
 ---
 
