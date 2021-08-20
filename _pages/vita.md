@@ -1,12 +1,11 @@
 ---
 layout: vita
+
 updated: '20 August 2021'
 
 title: Vita
 permalink: /vita/
-pdf: "_pages/vita.pdf"
-
-
+pdf: "assets/pdf/vita.pdf"
 
 output: 
   pdf_document:
@@ -22,13 +21,12 @@ output:
 - Tenure awarded 2012
 - Jennings Professor and Emerging Scholar, 2010-2012
 
-##### Teaching: 2020-21
+##### Teaching: 2021-22
 
-- [Civil Procedure](https://www.emfink.net/CivilProcedure/) (Fall 2020)
-- [Professional Responsibility](https://www.emfink.net/ProfessionalResponsibility/) (Fall 2020)
-- [Consumer Protection](https://www.emfink.net/ConsumerProtection/) (Winter 2021)
-- [Employment Law](https://www.emfink.net/EmploymentLaw/) (Winter 2021)
-- [Residency-in-Practice](https://www.emfink.net/Residency/) (Spring 2021)
+- [Civil Procedure](https://www.emfink.net/CivilProcedure/) (Fall 2021)
+- [Professional Responsibility](https://www.emfink.net/ProfessionalResponsibility/) (Fall 2021)
+- [Employment Law](https://www.emfink.net/EmploymentLaw/) (Winter 2022)
+- [Residency-in-Practice](https://www.emfink.net/Residency/) (Spring 2022)
 
 ##### Other Courses Taught
 
@@ -36,6 +34,7 @@ output:
 - Business Associations
 - [Cause Lawyering](https://www.emfink.net/CauseLawyering/)
 - [Labor Law](https://www.emfink.net/LaborLaw/)
+- [Consumer Protection](https://www.emfink.net)
 - Socio-Legal Perspectives
 
 ##### Service
