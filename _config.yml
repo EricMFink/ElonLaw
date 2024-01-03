@@ -1,6 +1,6 @@
 url: https://www.emfink.net
-baseurl: /Akademicky
-title: Akademický
+baseurl: /ElonLaw
+title: Eric M. Fink
 description:  # leave blank if you don't want to display a description
 
 last_updated: 3 January 2024 # leave blank if you don't want to display last updated
@@ -14,27 +14,6 @@ author:
   email: efink@elon.edu
   phone: 336-279-9334
   web: emfink.net/ElonLaw
-
-ta:
-  name: TA Name
-  email: ta123@elon.edu
-
-course:
-  subject: Trials & Tribulations
-  term: Fall 2023
-  room: Room 207
-  meets: 'Monday & Wednesday 10:00–11:30 am'
-  repository: /akademicky
-
-coursebook:
-  title: Trials & Tribulations
-  subtitle: An Open-Source Casebook
-  version: '2.0'
-  date: August 2023
-
-collections:
-  casebook:
-    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

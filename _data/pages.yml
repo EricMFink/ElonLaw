@@ -1,15 +1,5 @@
-# Default pages for teaching site
+- title: Publications
+  url: /publications/
 
-- title: Syllabus
-  url: /syllabus/
-
-- title: Links
-  url: /links/
-
-# Additional pages
-
-# - title: Publications
-#   url: /publications/
-
-# - title: Teaching
-#   url: /teaching/
+- title: Teaching
+  url: /teaching/
