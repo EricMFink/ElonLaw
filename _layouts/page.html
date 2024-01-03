@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<article class="group">
+
+<div class="page-container">
+
+<p class="page-title">{{ page.title}}</p>
+{% if page.subtitle %}
+<p class="page-subtitle">{{ page.subtitle}}</p>
+{% endif %}
+
+{{ content }}
+
+</article>
+
+</div>
+
+{% include hemline.html %}
