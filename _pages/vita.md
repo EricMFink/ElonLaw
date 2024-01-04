@@ -32,9 +32,9 @@ output:
 
 #### Teaching 2023-24
 
-- Civil Procedure
-- Professional Responsibility 
-- Employment Law 
+- [Civil Procedure](https://www.emfink.net/CivPro)
+- [Professional Responsibility](https://www.emfink.net/ProfessionalResponsibility)
+- [Employment Law](https://www.emfink.net/EmploymentLaw)
 - Residency-in-Practice
 
 #### Other Courses Taught
