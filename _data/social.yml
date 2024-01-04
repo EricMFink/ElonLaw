@@ -2,6 +2,10 @@
   url: 'mailto:name@institution.edu'
   label: Email
 
+- title: ai ai-cv
+  url: 'emfink.net/vita'
+  label: CV
+
 - title: fab fa-github
   url: https://github.com/username
   label: GitHub
