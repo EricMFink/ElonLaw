@@ -76,7 +76,6 @@ Union and Employee Access to Employer E-mail Systems Under Federal Labor Law, wi
 
 Contributing Editor, _The Developing Labor Law_ (P. Hardin, ed., 4th ed. 2001)
 
-
 # Conference Presentations
 
 ## Southeastern Academy of Legal Studies in Business
