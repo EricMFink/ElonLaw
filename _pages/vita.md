@@ -4,23 +4,40 @@ updated: '3 January 2024'
 title: Vita
 permalink: /vita/
 
+vita: true
+
+author: Eric M. Fink
+positition: Associate Professor
+affiliation: Elon Law School
+address1: 201 North Greene Street
+address2: 'Greensboro, North Carolina 27408'
+email: efink@elon.edu
+phone: 336-279-9334
+web: emfink.net/ElonLaw
+
+output:
+  pdf_document:
+    latex_engine: xelatex
+    template: master.tex
+    path: /assets/pdf/vita.pdf
+
 ---
 
-## Elon University School of Law
+# Elon University School of Law
 
-### Associate Professor of Law, 2007-present
+## Associate Professor of Law, 2007-present
 
 - Tenure awarded 2012
 - Jennings Professor and Emerging Scholar, 2010-2012
 
-##### Teaching (2023-24)
+#### Teaching 2023-24
 
 - Civil Procedure
 - Professional Responsibility 
 - Employment Law 
 - Residency-in-Practice
 
-##### Other Courses Taught
+#### Other Courses Taught
 
 - Administrative Law
 - Business Associations
@@ -29,9 +46,9 @@ permalink: /vita/
 - Labor Law
 - Socio-Legal Perspectives
 
-## Publications
+# Publications
 
-##### Journal Articles
+## Journal Articles
 
 ["Just When I Thought I was Out …": Post-Employment Repayment Obligations](https://www.emfink.net/assets/pdf/Fink2018.pdf), with Stuart Lichten, 25 _Washington & Lee Journal of Civil Rights & Social Justice_ 51 (2018)
 
@@ -51,7 +68,7 @@ permalink: /vita/
 
 Book Note, The Caribbean: New Dynamics in Trade and Political Economy, 28 _NYU Journal of International Law and Politics_ 644 (1996)
 
-##### Chapters, Reports, & Other Publications
+## Chapters, Reports, & Other Publications
 
 [Federal Student Loan Servicing: Contract Problems and Public Solutions](https://www.emfink.net/assets/pdf/Fink2014a.pdf), with Roland Zullo, Jobs With Justice Education Fund (2014)
 
@@ -60,189 +77,189 @@ Union and Employee Access to Employer E-mail Systems Under Federal Labor Law, wi
 Contributing Editor, _The Developing Labor Law_ (P. Hardin, ed., 4th ed. 2001)
 
 
-## Conference Presentations
+# Conference Presentations
 
-### Southeastern Academy of Legal Studies in Business
+## Southeastern Academy of Legal Studies in Business
 
-#### Annual Meeting
+### Annual Meeting
 
 - The Economic & Social Impact of North Carolina HB2 (November 2016)
 
-### Stony Brook University, Center for Study of Working Class Life
+## Stony Brook University, Center for Study of Working Class Life
 
-#### How Class Works Conference
+### How Class Works Conference
 
 - Police Union Contracts & Police Violence Against Civilians (June 2016)
 
-### University of Idaho School of Law, Idaho Law Review 
+## University of Idaho School of Law, Idaho Law Review 
 
-#### Annual Symposium
+### Annual Symposium
 
 - Union Organizing & Collective Bargaining for Incarcerated Workers (April 2016)
 
-### ABA Section of International Law
+## ABA Section of International Law
 
-#### Spring Meeting
+### Spring Meeting
 
 - Unpaid Law Student Internships: Legal & Ethical Issues (April 2014)
 
-### UNLV Boyd School of Law, Nevada Law Journal 
+## UNLV Boyd School of Law, Nevada Law Journal 
 
-#### Workplace & Democracy Symposium
+### Workplace & Democracy Symposium
 
 - Worker Self-Management in Public Services (February 2012)
 
-### International Institute for the Sociology of Law
+## International Institute for the Sociology of Law
 
-#### Social Economy Conference
+### Social Economy Conference
 
 - Worker Self-Management in Public Services (July 2011)
 
-### Southeastern Association of Law Schools
+## Southeastern Association of Law Schools
 
-#### Annual Meeting
+### Annual Meeting
 
 - Panel on Internet Culture and the Law (July 2011)
 - Legal Consciousness in the Second Life Virtual World (August 2010)
 - Panel on Academic Legal Blogs in Scholarship and Teaching (August 2009)
 
-### Law and Society Association
+## Law and Society Association
 
-#### Annual Meeting
+### Annual Meeting
 
 - Legal Consciousness in the Second Life Virtual World (May 2010)
 
-## Public Talks & Workshops
+# Public Talks & Workshops
 
-### Incarcerated Worker Organizing Project 
+## Incarcerated Worker Organizing Project 
 
 - Union Organizing for Incarcerated Workers: Legal Obstacles and Opportunities (September 2023)
 
-### National Society for Experiential Education
+## National Society for Experiential Education
 
-#### National and Regional Workshops
+### National and Regional Workshops
 
 - Legal Issues in Experiential Learning (2010-2019)
 
-### UNC Greeensboro
+## UNC Greeensboro
 
-#### Alpha Kappa Delta (Sociology Honors Society)
+### Alpha Kappa Delta (Sociology Honors Society)
 
 - Sociology in Legal Practice and Legal Scholarship (April 21, 2017)
 
-#### Gamma Theta Upsilon (Geography Honors Society) 
+### Gamma Theta Upsilon (Geography Honors Society) 
 
 - The Place of Place in Law: Law and Geography (April 24, 2008)
 
-### Elon Law School
+## Elon Law School
 
-#### National Lawyers Guild
+### National Lawyers Guild
 
 - Mass Incarceration & Prison Labor (February 21, 2017)
 - _Harris_, _Friedrichs_, and the Implications for Union Organizing November 23, 2015)
 - Corporations and Campaign Finance (September 20, 2012)
 - _Citizens United_, Corporations, and Democracy (July 18, 2012)
 
-#### Federalist Society
+### Federalist Society
 
 - Pros and Cons of a Minimum Wage Increase (November 16, 2016)
 
-### Rockingham County Democratic Party
+## Rockingham County Democratic Party
 
-#### Annual Convention 
+### Annual Convention 
 
 - Keynote Address: Taking Democracy Seriously (April 8, 2017)
 
-#### African-American Caucus 
+### African-American Caucus 
 
 - Voting Rights in North Carolina (February 18, 2017)
 
-### Open Government Coalition/Sunshine Center
+## Open Government Coalition/Sunshine Center
 
 - NC Open Government Law: A Guide for Public Officials (October 22, 2009)
 - Forum on NC Public Records Law (March 20, 2008)
 
-### State Employees Association of North Carolina
+## State Employees Association of North Carolina
 
 - Public Employee Unions and Collective Bargaining (October 17, 2009)
 
-### Mitchell Community College
+## Mitchell Community College
 
 - The Labor Movement and Labor Law in 2009 (September 8, 2009)
 
-### NC/SC Labor and Employment Law
+## NC/SC Labor and Employment Law
 
-#### Annual Meeting
+### Annual Meeting
 
 - Family Responsibility Accommodation and Discrimination (October, 18, 2008)
 
-## Past Teaching Experience
+# Past Teaching Experience
 
-### Stanford Law School, Palo Alto, CA
+## Stanford Law School, Palo Alto, CA
 
-#### Lecturer in Law, 2004-2006
+### Lecturer in Law, 2004-2006
 
 - Legal Research and Writing
 
-### St. Joseph’s University/Comey Institute, Philadelphia, PA
+## St. Joseph’s University/Comey Institute, Philadelphia, PA
 
-#### Instructor, 1997-2003
+### Instructor, 1997-2003
 
 - Labor Law; Negotiations; Arbitration; History and Sociology of the U.S. Labor Movement
 
-### Anglo-American College, Prague, Czech Republic
+## Anglo-American College, Prague, Czech Republic
 
-#### Lecturer, February- October 1992
+### Lecturer, February- October 1992
 
 - Introduction to Sociology; Economic Sociology; Sociology of Law
 
-## Legal Practice
+# Legal Practice
 
-### Leonard Carder, LLP, Oakland and San Francisco, CA
+## Leonard Carder, LLP, Oakland and San Francisco, CA
 
-#### Associate, 2006-2007
+### Associate, 2006-2007
 
 - Labor and employment law
 
-### Eckert Seamans Cherin and Mellott, Philadelphia, PA
+## Eckert Seamans Cherin and Mellott, Philadelphia, PA
 
-#### Associate, 2002-2004
+### Associate, 2002-2004
 
 - Civil litigation
 
-### Willig, Williams and Davidson, Philadelphia, PA
+## Willig, Williams and Davidson, Philadelphia, PA
 
-#### Associate, 1997-2002
+### Associate, 1997-2002
 
 - Labor and employment law
 
-## Education
+# Education
 
-### New York University School of Law, New York, NY
+## New York University School of Law, New York, NY
 
-#### J.D., magna cum laude, 1997
+### J.D., magna cum laude, 1997
 
 - Arthur Garfield Hays Civil Liberties Fellow
 - Journal of International Law and Politics, Symposium Editor
 - Order of the Coif
 
-### University of Chicago, Chicago, IL
+## University of Chicago, Chicago, IL
 
-#### Doctoral Student in Sociology (ABD), 1987-1992
+### Doctoral Student in Sociology (ABD), 1987-1992
 
 - Special Fields: Organizations (honors); Economic Sociology
 
-### London School of Economics, London, England
+## London School of Economics, London, England
 
-#### M.Sc., Sociology, 1985
+### M.Sc., Sociology, 1985
 
 - Thesis: Policing and Riots in the U.S. and U.K.
 
-### The Johns Hopkins University, Baltimore, MD
+## The Johns Hopkins University, Baltimore, MD
 
-#### B.A., Sociology, 1984  
+### B.A., Sociology, 1984  
 
-## Professional Associations
+# Professional Associations
 
 Law and Society Association
 
@@ -256,15 +273,15 @@ North Carolina Bar Association
 
 NC State Bar Ethics Committee, Advisory Member (2011-2013)
 
-## Bar Admissions
+# Bar Admissions
 
-### State
+## State
 
 California (Inactive)
 
 Pennsylvania (Retired Status)
 
-### Federal
+## Federal
 
 Third Circuit U.S. Court of Appeals, Eastern District of Pennsylvania
 
