@@ -87,21 +87,3 @@
   volume: 55
   date: 2004
   pdf: Fink2004
-
-- id: Fink2001
-  type: chapter
-  author: Stuart W. Davidson & Eric M. Fink
-  title: "Union and Employee Access to Employer E-mail Systems Under Federal Labor Law"
-  book: "The CyberUnion Handbook: Transforming Labor Through Computer Technology"
-  editor: Arthur Shostak, ed.
-  pages: 98-103
-  date: 2001
-
-- id: Fink1996
-  type: article 
-  author: Eric M. Fink
-  title: "Book Note, The Caribbean: New Dynamics in Trade and Political Economy"
-  journal: NYU Journal of International Law and Politics
-  volume: 28 
-  page: 644 
-  date: 1996
