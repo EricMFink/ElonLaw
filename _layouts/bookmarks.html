@@ -8,20 +8,20 @@
 			<div class="bookmarks-block">
 				<div class="row">
 					<div class="bookmarks-column">
-						{% for bookmark in site.data.bookmarks-personal %}
-							<h5><a href="{{ bookmark.url }}">{{ bookmark.title }}</a></h5>
+						{% for bookmark in site.data.bookmarks.left %}
+							<h5><a href="{{ bookmark.url }}" target="_blank">{{ bookmark.title }}</a></h5>
 						{% endfor %}
 					</div>
 
 					<div class="bookmarks-column">
-						{% for bookmark in site.data.bookmarks-work %}
-							<h5><a href="{{ bookmark.url }}">{{ bookmark.title }}</a></h5>
+						{% for bookmark in site.data.bookmarks.middle %}
+							<h5><a href="{{ bookmark.url }}" target="_blank">{{ bookmark.title }}</a></h5>
 						{% endfor %}
 					</div>
 
 					<div class="bookmarks-column">
-						{% for bookmark in site.data.bookmarks-teaching %}
-							<h5><a href="{{ bookmark.url }}">{{ bookmark.title }}</a></h5>
+						{% for bookmark in site.data.bookmarks.right %}
+							<h5><a href="{{ bookmark.url }}" target="_blank">{{ bookmark.title }}</a></h5>
 						{% endfor %}
 					</div>
 				</div>
