@@ -1,0 +1,391 @@
+<html>
+<head>
+<title>Eric M. Fink</title>
+<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/css/main.css" >
+
+<style>
+
+body {
+    font-family: adelle-sans,sans-serif;
+}
+
+h1 {
+    color: #b03a2e;
+    font-family: adelle-sans,sans-serif;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    font-weight: 600;
+    font-style: normal;
+    margin: 1.5rem 0 0 0;
+    padding: 0 0 0 0;
+}
+
+h2 {
+    color: #b03a2e;
+    font-family: adelle-sans,sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 600;
+    margin: 1.5rem 0 0 0;
+    padding: 0 0 0 0;
+}
+
+h3 { 
+    color: #191919;
+    font-family: athelas,serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 600;
+    margin: 1.5rem 0 0 0;
+    padding: 0 0 0 0;
+}
+
+h4 {
+    color: #191919;
+    font-family: athelas,serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 600;
+    margin: 1.5rem 0 0 0;
+    padding: 0 0 0 0;
+
+}
+
+p {
+    font-family: athelas,serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1;
+    margin: 0 0 0 0;
+}
+
+.block{display:block}
+
+.btn{font-family:inherit;font-size:inherit;font-weight:700;text-decoration:none;cursor:pointer;display:inline-block;line-height:1.125rem;padding:.5rem 1rem;margin:0;height:auto;border:1px solid transparent;vertical-align:middle;-webkit-appearance:none;color:inherit;background-color:transparent}
+
+.btn:hover{text-decoration:none}
+
+.btn:focus{outline:0;border-color:rgba(0,0,0,.125);box-shadow:0 0 0 3px rgba(0,0,0,.25)}
+
+::-moz-focus-inner{border:0;padding:0}
+
+.btn-primary{color:#fff;background-color:#0074d9;border-radius:3px}
+
+.btn-primary:hover{box-shadow:inset 0 0 0 20rem rgba(0,0,0,.0625)}
+
+.btn-primary:active{box-shadow:inset 0 0 0 20rem rgba(0,0,0,.125),inset 0 3px 4px 0 rgba(0,0,0,.25),0 0 1px rgba(0,0,0,.125)}
+
+.btn-primary.is-disabled,.btn-primary:disabled{opacity:.5}
+
+.col-12{width:100%}
+
+.field{border-style:solid;border-width:1px;border-color:rgba(0,0,0,.125);border-radius:3px}
+
+.field.is-focused,.field:focus{outline:0;border-color:#0074d9;box-shadow:0 0 0 2px rgba(0,116,217,.5)}
+
+.field.is-disabled,.field:disabled{background-color:rgba(0,0,0,.125);opacity:.5}
+
+.field.is-read-only,.field:read-only:not(select){background-color:rgba(0,0,0,.125)}
+
+.field.is-success{border-color:#2ecc40}
+
+.field.is-success.is-focused,.field.is-success:focus{box-shadow:0 0 0 2px rgba(46,204,64,.5)}
+
+.field.is-warning{border-color:#ffdc00}
+
+.field.is-warning.is-focused,.field.is-warning:focus{box-shadow:0 0 0 2px rgba(255,220,0,.5)}
+
+.field.is-error,.field:invalid{border-color:#ff4136}
+
+.field.is-error.is-focused,.field.is-error:focus,.field:invalid.is-focused,.field:invalid:focus{box-shadow:0 0 0 2px rgba(255,65,54,.5)}
+
+.mb1{margin-bottom:.5rem}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="page-container">
+
+<header class="site-header">
+<a class="page-link" href="https://www.emfink.net/ElonLaw/"><span class="site-title">Eric M. Fink</span></a>
+</header>
+
+<article>
+
+<h1>Course Calendar</h1>
+
+<p>Generate a list of class meeting dates to use in syllabus</p>
+
+<form method="post" action="http://wcaleb.org/syllabusmaker/classes/">
+
+<h2>Year</h2>
+
+<select name="year" class="ck mb1 field">
+
+<option value="2025">2025</option>
+
+<option value="2026">2026</option>
+
+<option value="2027">2027</option>
+
+<option value="2028">2028</option>
+
+<option value="2029">2029</option>
+
+</select>
+
+<h2>First day of class</h2>
+
+<select name="start-month" class="ck mb1 field">
+
+<option value="January">January</option>
+
+<option value="February">February</option>
+
+<option value="March">March</option>
+
+<option value="April">April</option>
+
+<option value="May">May</option>
+
+<option value="June">June</option>
+
+<option value="July">July</option>
+
+<option value="August">August</option>
+
+<option value="September">September</option>
+
+<option value="October">October</option>
+
+<option value="November">November</option>
+
+<option value="December">December</option>
+
+</select>
+<select name="start-day" class="ck mb1 field">
+
+<option value="1">1</option>
+
+<option value="2">2</option>
+
+<option value="3">3</option>
+
+<option value="4">4</option>
+
+<option value="5">5</option>
+
+<option value="6">6</option>
+
+<option value="7">7</option>
+
+<option value="8">8</option>
+
+<option value="9">9</option>
+
+<option value="10">10</option>
+
+<option value="11">11</option>
+
+<option value="12">12</option>
+
+<option value="13">13</option>
+
+<option value="14">14</option>
+
+<option value="15">15</option>
+
+<option value="16">16</option>
+
+<option value="17">17</option>
+
+<option value="18">18</option>
+
+<option value="19">19</option>
+
+<option value="20">20</option>
+
+<option value="21">21</option>
+
+<option value="22">22</option>
+
+<option value="23">23</option>
+
+<option value="24">24</option>
+
+<option value="25">25</option>
+
+<option value="26">26</option>
+
+<option value="27">27</option>
+
+<option value="28">28</option>
+
+<option value="29">29</option>
+
+<option value="30">30</option>
+
+<option value="31">31</option>
+
+</select>
+
+<h2>Last day of class</h2>
+
+<select name="last-month" class="ck mb1 field">
+
+<option value="January">January</option>
+
+<option value="February">February</option>
+
+<option value="March">March</option>
+
+<option value="April">April</option>
+
+<option value="May">May</option>
+
+<option value="June">June</option>
+
+<option value="July">July</option>
+
+<option value="August">August</option>
+
+<option value="September">September</option>
+
+<option value="October">October</option>
+
+<option value="November">November</option>
+
+<option value="December">December</option>
+
+</select>
+<select name="last-day" class="ck mb1 field">
+
+<option value="1">1</option>
+
+<option value="2">2</option>
+
+<option value="3">3</option>
+
+<option value="4">4</option>
+
+<option value="5">5</option>
+
+<option value="6">6</option>
+
+<option value="7">7</option>
+
+<option value="8">8</option>
+
+<option value="9">9</option>
+
+<option value="10">10</option>
+
+<option value="11">11</option>
+
+<option value="12">12</option>
+
+<option value="13">13</option>
+
+<option value="14">14</option>
+
+<option value="15">15</option>
+
+<option value="16">16</option>
+
+<option value="17">17</option>
+
+<option value="18">18</option>
+
+<option value="19">19</option>
+
+<option value="20">20</option>
+
+<option value="21">21</option>
+
+<option value="22">22</option>
+
+<option value="23">23</option>
+
+<option value="24">24</option>
+
+<option value="25">25</option>
+
+<option value="26">26</option>
+
+<option value="27">27</option>
+
+<option value="28">28</option>
+
+<option value="29">29</option>
+
+<option value="30">30</option>
+
+<option value="31">31</option>
+
+</select>
+
+<h2>Days of week</h2>
+
+<input type="checkbox" name="days" value="Sunday"> Sunday</input><br>
+<input type="checkbox" name="days" value="Monday"> Monday</input><br>
+<input type="checkbox" name="days" value="Tuesday"> Tuesday</input><br>
+<input type="checkbox" name="days" value="Wednesday"> Wednesday</input><br>
+<input type="checkbox" name="days" value="Thursday"> Thursday</input><br>
+<input type="checkbox" name="days" value="Friday"> Friday</input><br>
+<input type="checkbox" name="days" value="Saturday"> Saturday</input>
+
+<h2>Date format.</h2>
+
+<select name="format" class="block col-12 ck mb1 field">
+
+<option value="Tuesday, January 12, 2016">Wednesday, September 3, 2025</option>
+
+<option value="Tuesday, January 12">Wednesday, September 3</option>
+
+<option value="Tue., Jan. 12, 2016">Wed., Sep. 3, 2025</option>
+
+<option value="Tue., Jan. 12">Wed., Sep. 3</option>
+
+<option value="January 12, 2016">September 3, 2025</option>
+
+<option value="January 12">September 3</option>
+
+<option value="Jan. 12">Sep. 3</option>
+
+<option value="January 12 (Tuesday)">September 3 (Wednesday)</option>
+
+<option value="1/12">9/3</option>
+
+<option value="01/12">09/3</option>
+
+<option value="2016-01-12">2025-09-3</option>
+
+</select>
+
+<br/>
+
+<button type="submit" class="btn btn-primary">Submit</button>
+
+</form>
+
+</article>
+
+<footer>
+<div class="home-footer">
+<div class="home-footer-block">
+<p>Created by <a href="https://github.com/EricMFink" target="_blank">Eric M. Fink</a>, based on <a href="http://wcaleb.org">Rice Scheduler by Caleb McDaniel</a>. </p>
+</div>
+</div>
+</footer>
+
+</div>
+
+</body>
+
+</html>
