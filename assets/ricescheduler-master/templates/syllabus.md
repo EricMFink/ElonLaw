@@ -1,52 +1,51 @@
 ---
-title: Course Title
+title: COURSE TITLE
 author: Instructor Name
 date: $semester$ $year$
----
 
-# Contact Information
+---
 
 Instructor:   
 Office:  
 Email:  
-Office Hours:  
+Office Hours: 
 
-# Course Objectives and Learning Outcomes
+## Description
 
-# Required Texts and Materials
+COURSE DESCRIPTION 
 
-# Exams and Papers
+## Course Materials
 
-# Grade Policies
+### Required
 
-# Absence Policies
+CASEBOOK, ETC. 
 
-# Rice Honor Code
+### Suggested
 
-In this course, all students will be held to the standards of the Rice
-Honor Code, a code that you pledged to honor when you matriculated at
-this institution. If you are unfamiliar with the details of this code
-and how it is administered, you should consult the Honor System
-Handbook at <http://honor.rice.edu/honor-system-handbook/>. This
-handbook outlines the University's expectations for the integrity of
-your academic work, the procedures for resolving alleged violations of
-those expectations, and the rights and responsibilities of students
-and faculty members throughout the process.
+SUGGESTED SUPPLEMENTS, ETC. 
 
-# Disability Support Services
+## Policies
 
-If you have a documented disability or other condition that may affect
-academic performance you should: 1) make sure this documentation is on
-file with Disability Support Services (Allen Center, Room 111 /
-<adarice@rice.edu> / x5841) to determine the accommodations you need;
-and 2) talk with me to discuss your accommodation needs.
+### Grading
 
-# Syllabus Change Policy
+EXPLANATION OF GRADING
 
-This syllabus is only a guide for the course and is subject to change with advanced notice.
+### Attendance
 
-# Course Schedule
+Elon Law School has adopted the following attendance policy for all courses:
+
+> The Law School administers a policy that a student maintain regular and punctual class attendance in all courses in which the student is registered, including externships, clinical courses, or simulation courses. Faculty members will give students written notice of their attendance policies before or during the first week of class. These policies may include, but are not limited to: treating late arrivals, early departures, and/or lack of preparation as absences  imposing grade or point reductions for absences, including assigning a failing grade or involuntarily withdrawing a student from the class  and any other policies that a professor deems appropriate to create a rigorous and professional classroom environment.
+>  
+> In case of illness or emergency, students may contact the Office of Student and Professional Life, which will then notify the student’s instructors. A student may notify the faculty member directly of a planned absence and should refer to individual faculty members regarding any policy that may apply. In the case of prolonged illness or incapacity, the student should contact the [Office of Student Life](https://www.elon.edu/u/law/students/).
+
+### Disability Accommodations
+
+For disability accommodation requests, contact the [Elon Disability Services Office](https://www.elon.edu/u/academics/koenigsberger-learning-center/disabilities-resources/homepage/graduate-student-resources/).
+
+### Honor Code
+
+The Law School [honor code](https://www.elon.edu/u/law/students/honor-code/) applies to all activities related to your law school study, including conduct during class and examinations.
+
+## Schedule & Assignments
 
 $body$
-
-

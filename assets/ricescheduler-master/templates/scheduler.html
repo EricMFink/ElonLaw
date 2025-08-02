@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Eric M. Fink</title>
+<link rel="shortcut icon" href="https://www.emfink.net/assets/img/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/css/main.css" >
+<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/css/scheduler.css" >
+</head>
+
+<body>
+<header class="site-header">
+<a class="page-link" href="https://www.emfink.net/ElonLaw/"><span class="site-title">Eric M. Fink</span></a>
+</header>
+
+<div class="page-container">
+<article>
+<h1>Class Schedule Generator</h1>
+
+<form method="post" action="{{ url_for('classes') }}">
+
+<h2>Year</h2>
+<select name="year" class="ck mb1 field">
+{% for year in years %}
+<option value="{{year}}">{{year}}</option>
+{% endfor %}
+</select>
+
+<h2>First day of class</h2>
+<select name="start-month" class="ck mb1 field">
+{% for month in months %}
+<option value="{{month}}">{{month}}</option>
+{% endfor %}
+</select>
+<select name="start-day" class="ck mb1 field">
+{% for day in ddays %}
+<option value="{{day}}">{{day}}</option>
+{% endfor %}
+</select>
+
+<h2>Last day of class</h2>
+<select name="last-month" class="ck mb1 field">
+{% for month in months %}
+<option value="{{month}}">{{month}}</option>
+{% endfor %}
+</select>
+<select name="last-day" class="ck mb1 field">
+{% for day in ddays %}
+<option value="{{day}}">{{day}}</option>
+{% endfor %}
+</select>
+
+<h2>Days of week</h2>
+<input type="checkbox" name="days" value="Sunday">Sunday</input><br>
+<input type="checkbox" name="days" value="Monday">Monday</input><br>
+<input type="checkbox" name="days" value="Tuesday">Tuesday</input><br>
+<input type="checkbox" name="days" value="Wednesday">Wednesday</input><br>
+<input type="checkbox" name="days" value="Thursday">Thursday</input><br>
+<input type="checkbox" name="days" value="Friday">Friday</input><br>
+<input type="checkbox" name="days" value="Saturday">Saturday</input>
+
+<h2>Date format</h2>
+<select name="format" class="block col-12 ck mb1 field">
+{% for format in formats %}
+<option value="{{format}}">{{format}}</option>
+{% endfor %}
+</select>
+
+<h2>Output format</h2>
+<p> Formatted syllabus template with dates or unformatted list of dates to paste in syllabus</p>
+<select name="format" class="block col-12 ck mb1 field">
+{% for format in formats %}
+<option value="{{format}}">{{format}}</option>
+{% endfor %}
+</select>
+
+<br/>
+
+<button type="submit" class="btn btn-primary">Submit</button>
+
+</form>
+
+</article>
+
+<footer>
+<div class="home-footer">
+<div class="home-footer-block">
+<p>Created by <a href="https://github.com/EricMFink" target="_blank">Eric M. Fink</a>, based on <a href="http://wcaleb.org">Rice Scheduler by Caleb McDaniel</a>. </p>
+</div>
+</div>
+</footer>
+
+</div>
+</body>
+</html>

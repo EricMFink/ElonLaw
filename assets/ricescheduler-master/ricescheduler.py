@@ -20,17 +20,19 @@ def make_url(semester, year):
 
 def date_formats():
     ''' based on Arrow string formats at http://crsmithdev.com/arrow/#tokens '''
-    date_formats = [('Tuesday, January 12, 2016', 'dddd, MMMM D, YYYY'),
-            ('Tuesday, January 12', 'dddd, MMMM D'),
-            ('Tue., Jan. 12, 2016', 'ddd., MMM. D, YYYY'),
-            ('Tue., Jan. 12', 'ddd., MMM. D'),
-            ('January 12, 2016', 'MMMM D, YYYY'),
-            ('January 12', 'MMMM D'),
-            ('Jan. 12', 'MMM. D'),
-            ('January 12 (Tuesday)', 'MMMM D (dddd)'),
-            ('1/12', 'M/D'),
-            ('01/12', 'MM/DD'),
-            ('2016-01-12', 'YYYY-MM-DD')]
+    date_formats = [('September 3', 'MMMM D'),
+            ('Sep. 3', 'MMM. D'),
+            ('Wednesday, September 3', 'dddd, MMMM D'),
+            ('Wednesday, September 3, 2025', 'dddd, MMMM D, YYYY'),
+            ('Wed., Sep. 3, 2025', 'ddd., MMM. D, YYYY'),
+            ('Wed., Sep. 3', 'ddd., MMM. D'),
+            ('September 3, 2025', 'MMMM D, YYYY'),
+            ('September 3', 'MMMM D'),
+            ('Sep. 3', 'MMM. D'),
+            ('September 3 (Wednesday)', 'MMMM D (dddd)'),
+            ('9/3', 'M/D'),
+            ('09/03', 'MM/DD'),
+            ('2025-09-3', 'YYYY-MM-DD')]
     return date_formats
 
 def fetch_registrar_table(url):
@@ -49,7 +51,7 @@ def clean_cell(td):
 def parse_td_for_dates(td):
     ''' Get date or date range as lists from cell in registrar's table '''
     cell = clean_cell(td)
-    months = ['January', 'February', 'March', 'April', 'May',
+    months = ['September', 'February', 'March', 'April', 'May',
             'June', 'July', 'August', 'September', 'October', 'November', 'December']
     ms = [locale().month_number(m) for m in months if m in cell]
     ds = [int(d) for d in re.split('\D', cell) if 0 < len(d) < 3]
